@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#navbar-h-a {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.navbar-brand {
+    /* width: 20px */
+    /* height: 10px; */
+    border-radius: 50px;
+    border: 1px solid transparent;
+}
+
+#navbarSupportedContent a {
+    color: #000;
+    border-bottom: 2px solid transparent;
+    transition: .3s;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+#navbarSupportedContent .nav-link:hover {
+    border-bottom: 2px solid #e9b75c;
+    transition: .3s;
+}
+
+#navbar-h-a .i-con,
+.icon-traly {
+    padding-right: 25px;
+    color: #000;
+}
+
+/* ---------------------------------------------------- */
+/* .collapse .i-con,.icon-traly:hover{
+    border-bottom: transparent ;
+    transition: .3s;
+} */
+#Home {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+#Home {
+    background: url(img/pageBcg/bannerBcg.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    background-attachment: fixed;
+    flex-direction: column;
+    /* position: fixed; */
+}
+
+.content {
+    /* align-items: end; */
+    margin-top: 370px;
+    margin-left: 50px;
+}
+
+/* ------------------------------------------- */
+/* product details */
+.product-detail {
+    margin: 50px 0px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pro-1 {
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pro-1 img {
+    /* margin-left: 80px; */
+    margin-bottom: 10px;
+    /* margin-top: -10px; */
+}
+
+.pro-2 img {
+    align-items: center;
+    margin-left: 20px;
+}
+
+/* ------------------------------ */
+/* product gratagries */
+.product-img {
+    margin: 50px 0px;
+    /* margin-left: 5px; */
+}
+
+/* --------------------------------- */
+/* parallax-data */
+/* #parallax-data{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.parallax-data-collection {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .3)), url(img/home-filler.jpeg);
+    /* background: fixed; */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+ 
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-data-collection h2 {
+    /* margin: 100px 100px; */
+    color: snow;
+
+}
+
+.parallax-data-collection p {
+    color: snow;
+}
+
+.parallax-data-collection btn {
+    color: snow;
+}
+
+.home-products {
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    width: 60px;
+    height: 5vh;
+    color: #e9b75c;
+    font-weight: bolder;
+  
+}
+.our-product img{
+    padding: 50px;
+}
